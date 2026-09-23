@@ -1,0 +1,24 @@
+{
+    "document_type_detected": "PASSPORT",
+    "details": {
+        "mrz_format": "TD3",
+        "issuing_country": "TAP",
+        "nationality": "Spain",
+        "surname": "IAKJUANKDASEC",
+        "given_names": "KKKKKKKKKKKKKKKK",
+        "passport_number": "KV2424725",
+        "passport_number_check_valid": true,
+        "date_of_birth": "06/09/1978",
+        "date_of_birth_check_valid": true,
+        "sex": "M",
+        "expiry_date": "19/02/1932",
+        "expiry_date_check_valid": true,
+        "country_detected": "TAP",
+        "mrz_detected": [
+            "MMFECHADENACIMIEISEESOSEDE<<OECE3IDNO7",
+            "P<TAPIAKJUANKDASEC<<<<<<KKKKKKKKKKKKKKKK<<<",
+            "KV24247253ESP7809062M3202193A3064941000<<<30"
+        ]
+    },
+    "ocr_text": "Tipo/ Type Cédiga/ Code _ .PASAPORTE NO./ PASSPORT NO./ PASSEPORT NO.\nPASAPORTE \"5 ESP. 4  KV26246725\nPASSPORT wept} \\oeead | | oe\nJUAN aA :\nNacionalided/ Ane” aot Se BF Sexo/ Sex/Sexe(5)\nle ESPAROLAR Ses aes M\nmM ( - Fecha denacimie i See so Sede . << oe ce (3) id. No. (7)\nt 08-08 - 19RB SSeS A3064941000\n’ Me. eee, DGP-62221A6PR\nFecha de caducid von 3 ise 7 / Holder's signeture/ Signature du titulaire (11)\n™!* Date d expiration (10) (xa )\nP<TAPIAKJUANKDASEC<<<< << KKK KKK KK KKK KKK KK <<<\nKV24247253ESP7809062M3202 193A306494 1000<<<30"
+}
