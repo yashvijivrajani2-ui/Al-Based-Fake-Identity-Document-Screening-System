@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BorderGuard AI OCR Output",
+  "type": "object",
+  "required": [
+    "contract_version",
+    "document_id",
+    "ocr_status",
+    "ocr_confidence",
+    "full_name",
+    "passport_number",
+    "nationality",
+    "date_of_birth",
+    "gender",
+    "issue_date",
+    "expiry_date",
+    "mrz_text_raw",
+    "mrz_text_cleaned",
+    "mrz_confidence",
+    "quality_flags",
+    "document_flags"
+  ],
+  "properties": {
+    "contract_version": {
+      "type": "string"
+    },
+    "document_id": {
+      "type": "string"
+    },
+    "ocr_status": {
+      "type": "string"
+    },
+    "ocr_confidence": {
+      "type": "number"
+    },
+    "full_name": {
+      "type": ["string", "null"]
+    },
+    "passport_number": {
+      "type": ["string", "null"]
+    },
+    "nationality": {
+      "type": ["string", "null"]
+    },
+    "date_of_birth": {
+      "type": ["string", "null"]
+    },
+    "gender": {
+      "type": ["string", "null"]
+    },
+    "issue_date": {
+      "type": ["string", "null"]
+    },
+    "expiry_date": {
+      "type": ["string", "null"]
+    },
+    "mrz_text_raw": {
+      "type": "array"
+    },
+    "mrz_text_cleaned": {
+      "type": "array"
+    },
+    "mrz_confidence": {
+      "type": "number"
+    },
+    "quality_flags": {
+      "type": "object"
+    },
+    "document_flags": {
+      "type": "array"
+    }
+  }
+}
